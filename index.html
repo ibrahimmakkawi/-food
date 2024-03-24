@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cuisine Recipes</title>
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <!-- nav -->
+    <header class="row container">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="" />
+      </a>
+      <div class="togglemenu" onclick="togglemenu()"></div>
+      <nav class="nav row">
+        <ul class="primary row">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <ul class="secondary row">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end nav -->
+
+    <!-- main sec -->
+    <section class="hero">
+      <div class="row container">
+        <div class="hero-content">
+          <div class="content">
+            <div class="recipe row">
+              <img src="img/recipe.png" alt="" /> Hot Recipes
+            </div>
+            <h1>Spicy delicious chicken wings.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              facere aliquid, repudiandae, at nesciunt nemo quae recusandae
+              alias nobis.
+            </p>
+            <div class="time row">
+              <div class="row">
+                <i class="fa-solid fa-clock"></i>
+                <p>30 minutes</p>
+              </div>
+              <div class="row">
+                <i class="fa-solid fa-utensils"></i>
+                <p>Chicken</p>
+              </div>
+            </div>
+            <div class="profile-btn row">
+              <div class="profile row">
+                <div class="image row">
+                  <img src="img/chef (3).png" alt="" />
+                </div>
+                <div class="column">
+                  <h6>Jhon Smith</h6>
+                  <p>15 march 2024</p>
+                </div>
+              </div>
+              <a href="#" class="hero-btn row">
+                View Recipes
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end main sec -->
+
+    <!-- categ -->
+    <section class="categ container">
+      <div class="categ-title row">
+        <h2>Categories</h2>
+        <a href="#" class="categ-btn">View all Categories</a>
+      </div>
+      <div class="categ-card column">
+        <a href="#" class="cat-card">
+          <img src="img/break.jpg" alt="" />
+          <h6>Breakfast</h6>
+        </a>
+        <a href="#" class="cat-card">
+          <img src="img/vegan.jpg" alt="" />
+          <h6>Vegan</h6>
+        </a>
+        <a href="#" class="cat-card">
+          <img src="img/meat.jpg" alt="" />
+          <h6>Meat</h6>
+        </a>
+        <a href="#" class="cat-card">
+          <img src="img/dessert.jpg" alt="" />
+          <h6>Dessert</h6>
+        </a>
+        <a href="#" class="cat-card">
+          <img src="img/lunch.jpg" alt="" />
+          <h6>Lunch</h6>
+        </a>
+        <a href="#" class="cat-card">
+          <img src="img/choc.jpg" alt="" />
+          <h6>Chocolate</h6>
+        </a>
+      </div>
+    </section>
+    <!-- end categ -->
+
+    <!-- recipes -->
+    <section class="recipes container">
+      <div class="section-title">
+        <h2>Simple And Tasty Recipes.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+          delectus vel suscipit eligendi repudiandae!
+        </p>
+      </div>
+      <div class="recipes-card column">
+        <a href="#" class="card">
+          <img src="img/1.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row active">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/2.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/3.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/4.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/5.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/6.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/7.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/8.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- end reipes -->
+
+    <!-- learn -->
+    <section class="learn row container">
+      <div class="learn-container">
+        <div>
+          <h2>Everyone can be a chef in their own kicthcen</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, dicta.
+          </p>
+          <a href="#" class="learn-btn">Learn More</a>
+        </div>
+      </div>
+      <div class="learn-img row">
+        <img src="img/chef (3).png" alt="" />
+      </div>
+    </section>
+    <!-- end lrean -->
+
+    <!-- intagram -->
+    <div class="instagram">
+      <div class="container">
+        <div class="section-title">
+          <h2>Check Our @food on Intsagram</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non
+            ex quae aliquam itaque pariatur dolorem expedita voluptatem cumque
+            ab dolore.
+          </p>
+        </div>
+        <div class="cardi column">
+          <a href="#"><img src="img/i1.png" alt="" /></a>
+          <a href="#"><img src="img/i2.png" alt="" /></a>
+          <a href="#"><img src="img/i3.png" alt="" /></a>
+          <a href="#"><img src="img/i4.png" alt="" /></a>
+          <a href="#"><img src="img/i5.png" alt="" /></a>
+          <a href="#"><img src="img/i6.png" alt="" /></a>
+        </div>
+        <a href="#" class="insta-btn row">
+          Visit Our Instagram
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <!-- emd intsa -->
+    <!-- try -->
+    <section class="try container">
+      <div class="try-content row">
+        <h2>Try This Delicious Recipe To Make Your Day</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          vitae tempore ad ab deleniti quia eligendi quas. Quibusdam, vel neque.
+        </p>
+      </div>
+      <div class="try-card column">
+        <a href="#" class="card">
+          <img src="img/1.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row active">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/2.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/4.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/5.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/5.png" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/6.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/7.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <img src="img/8.jpg" alt="" />
+          <h5>Big And Juciy Cheeseburger</h5>
+          <div class="time row">
+            <div class="row">
+              <i class="fa-solid fa-clock"></i>
+              <p>30 minutes</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="like row">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- try end -->
+
+    <!-- subs -->
+    <section class="sub container row">
+      <div>
+        <div class="section-title">
+          <h2>Deliciousness To Your Inbox</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic culpa
+            ipsa nesciunt animi consequatur blanditiis?
+          </p>
+        </div>
+        <div class="sub-input row">
+          <div class="row">
+            <input type="email" placeholder="your Email.." />
+            <a href="#" class="sub-btn">Subscirbe</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subs end -->
+
+    <!-- footer  -->
+    <footer class="container">
+      <div class="footer-content row">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          similique!
+        </p>
+        <ul class="primary row">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <hr />
+      <div class="footer-links row">
+        <p class="copy-rights">&copy; 2024, All right reserved</p>
+        <ul class="secondary row">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
